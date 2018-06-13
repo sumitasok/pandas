@@ -19,7 +19,7 @@ services:
     image: pandas_app:latest
     container_name: myapp
     volumes:
-      - /Users/sumitasok/arena/src/github.com/sumitasok/references/pandas:/app
+      - /Users/sumitasok/arena/src/github.com/sumitasok/pandas:/app
     depends_on:
       - mydb
     ports:

@@ -8,6 +8,6 @@ RUN pip install pymysql --no-cache-dir
 RUN mkdir /app
 WORKDIR /app
 
-# ENTRYPOINT ["python", "sample.py"]
+ENTRYPOINT ["python", "sample.py"]
 
-CMD "cd /app && python sample.py && python3 -m http.server 2000"
+# CMD "python sample.py" # && python3 -m http.server 2000"

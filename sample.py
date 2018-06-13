@@ -5,7 +5,7 @@ from sqlalchemy import create_engine
 # import time
 # time.sleep(12)
 
-mysql_conn_string = 'mysql+pymysql://root@db:3306/sample'
+mysql_conn_string = "mysql+pymysql://iamuser:P09L123cedS@mydb/iam"
 db = create_engine(mysql_conn_string)
 
 import pandas as pd
